@@ -1,0 +1,164 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    background: #ffd600;
+    padding: 2% 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+  
+.contact a:hover {
+    transform: scale(1.5);
+}
+  
+.title a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    width: 50%;
+    max-width: 500px;
+}
+
+
+.conversion2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.converter select {
+    height: 40px;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.converter input {
+    width: 75%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.convert {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.convert button {
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ffd600;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.convert-button{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.reset-button{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.converter button:hover {
+    background-color: rgba(196, 166, 14, 0.912);
+}
+
+.formula {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.formula input {
+    width: 100%;
+    margin-top: 10px
+}
+
+.footer {
+    background-color: #ffd600;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+
+
+  
